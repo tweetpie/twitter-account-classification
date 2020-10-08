@@ -13,7 +13,7 @@ The experiments show that the account metadata is a qualified resource for a ver
 
 #### Datasets 
 
-You can find all datasets mentioned in the paper from here.Each model is applied on different versions of the datasets, such as the Humanizr model applied on the balanced, unbalanced, and full version of the Humanizr dataset. The balanced version of the data set includes equal number of individual and organization accounts. The number of accounts is accomplished by undersampling the majority class. 
+You can find all datasets mentioned in the paper from [here](https://github.com/tweetpie/twitter-account-classification/tree/main/datasets). Each model is applied on different versions of the datasets, such as the Humanizr model applied on the balanced, unbalanced, and full version of the Humanizr dataset. The balanced version of the data set includes equal number of individual and organization accounts. The number of accounts is accomplished by undersampling the majority class. 
 
    
 |Dataset Name   |      Number of Original Accounts      |  Number of Collected Accounts | Collection Percent |
@@ -26,18 +26,15 @@ You can find all datasets mentioned in the paper from here.Each model is applied
 The collected Humanizr dataset consists of 17,790 user accounts, in which 16,012 of them are labeled as individuals, 
 and 1,778 of them are labeled as organizations. In the Demographer dataset, there are 214,236 accounts in which 185,224 
 are labeled as individuals, and 29,012 are labeled as an organization. Since the Demographer dataset comprises the Humanizr dataset, 
-the figures are based on the Demographer dataset in the following sections. 
+the figures are based on the Demographer dataset. 
 
 #### Notebooks
 
 ##### Interactive Data Analysis
 
-This notebook contains Followers-Following, Followers-Tweets, Followers-Likes, Tweets-Likes and Tweets-Media relationships.
+[This notebook](https://colab.research.google.com/github/tweetpie/twitter-account-classification/blob/main/notebooks/InteractiveDataAnalysis.ipynb) contains interactive plots to visualize Followers-Following, Followers-Tweets, Followers-Likes, Tweets-Likes and Tweets-Media relationships.
 
 ##### Interactive Demo
 
-This notebook provides an interactive service that predict the given Twitter account's label.
-
-
-
+[This notebook](https://colab.research.google.com/github/tweetpie/twitter-account-classification/blob/main/notebooks/InteractiveAccountTypeClassification.ipynb) provides an interactive service that predict the given Twitter account's label.
 
