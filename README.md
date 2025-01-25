@@ -1,4 +1,6 @@
 ## Twitter Account Classification Using Account Metadata: <br/> Organization vs. Individual
+[https://dx.doi.org/10.55730/1300-0632.3856](https://dx.doi.org/10.55730/1300-0632.3856)
+
 #### Abstract
 Organizations present their existence on social media to gain followers and reach out to the crowds. 
 For social media related tasks and applications, such as social media graph construction, sentiment analysis and bot detection, 
@@ -38,3 +40,17 @@ the figures are based on the Demographer dataset.
 
 [This notebook](https://colab.research.google.com/github/tweetpie/twitter-account-classification/blob/main/notebooks/InteractiveAccountTypeClassification.ipynb) provides an interactive service that predict the given Twitter account's label.
 
+## Citation
+
+```bibtex
+@article{cetinkaya2022twitter,
+  title={Twitter account classification using account metadata: organizationvs. individual},
+  author={Cetinkaya, Yusuf Mucahit and G{\"u}rlek, Mesut and Toroslu, Ismail Hakki and Karag{\"o}z, Pinar},
+  journal={Turkish Journal of Electrical Engineering and Computer Sciences},
+  volume={30},
+  number={4},
+  pages={1404--1418},
+  year={2022},
+  doi={10.55730/1300-0632.3856}
+}
+```
